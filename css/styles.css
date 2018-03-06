@@ -10,6 +10,8 @@ section {
   height: 100vh;
 }
 
+.header { height: 90px; width: 100%; background-color: #000;padding-top: 10px;}
+
 #title { margin-top: 25%; /*margin-bottom:25%;*/}
 
 h1 {
@@ -78,6 +80,16 @@ p {
   padding: 5px 55px;
   line-height: 1.4;
 }
+
+.footer {
+  position: absolute;
+  padding-top:250px;
+  text-align: center;
+  width: 100%;
+  margin-bottom:10px;
+}
+
+.footer a { padding-right: 5%;}
 
 iframe {
   padding-bottom: 20px;
