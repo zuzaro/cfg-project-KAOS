@@ -1,0 +1,173 @@
+body {
+  background-color: #191919;
+  font-family: 'Poiret One', cursive;
+}
+
+section {
+  width: 100%;
+/*  margin: 0;
+  max-width: none; */
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 60px;
+  font-weight: 500;
+  color: #e6e6e6;
+  padding-bottom: 20px;
+}
+
+/*
+.dropbtn {
+  background-color: inherit;
+  color: #e6e6e6;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: inherit;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #grey;
+}
+*/
+
+h2 {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  color: #e6e6e6;
+}
+
+p {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  color: #e6e6e6;
+  padding: 5px 55px;
+  line-height: 1.4;
+}
+
+iframe {
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: justify;
+  font-size: 20px;
+  color: #e6e6e6;
+  padding: 0px 60px;
+}
+
+a:link {
+  color: #ffffb3;
+}
+a:visited {
+  color: #e6e6e6;
+}
+a:hover {
+  color: #ffbf80;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.column {
+  flex: 50%;
+  max-width: 50%;
+  align-items: center;
+}
+
+.nav li {
+  margin-bottom: 0;
+  padding: 0;
+  display: inline;
+}
+
+
+#charities-list {
+  text-align: center;
+}
+
+#menu {
+  width: 667px;
+  height: auto;
+  margin: 0px;
+  margin-bottom: -2px;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+#menu:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-weight: bold;
+  color: #e6e6e6;
+  text-shadow: 3px 2px black;
+}
+
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 35px;
+    margin-top: 15px;
+  }
+  h2 {
+    font-size: 25px;
+    margin: 20px 0px 20px 0px;
+  }
+  p {
+    font-size: 18px;
+    line-height: normal;
+    padding: 0px 35px;
+  }
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
