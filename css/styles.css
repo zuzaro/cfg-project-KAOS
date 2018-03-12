@@ -1,6 +1,8 @@
 body {
   background-color: rgb(13,13,13);
   font-family: 'Poiret One', cursive;
+  background-image: url(../images/02.jpg);
+  background-size: cover;
 }
 
 section {
@@ -10,21 +12,9 @@ section {
   height: 100vh;
 }
 
-.header {
-  height: 90px;
-  width: 100%;
-  padding-top: 10px;
-  color: rgba(255,255,255,1);
-  background-color: rgba(0,0,0,1);
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-}
-
 h1 {
   text-align: center;
   font-family: 'Poiret One', cursive;
-  padding: 5px 0px;
   font-size: 80px;
   font-weight: 500;
   text-decoration: underline;
@@ -53,12 +43,21 @@ p {
   font-family: 'Poiret One', cursive;
   font-size: 20px;
   color: #e6e6e6;
-  padding: 5px 55px;
+  padding: 0px 55px;
   line-height: 1.4;
 }
 
+.text { /* styles content to stand out against background*/
+  background-color: rgb(13,13,13);
+  padding: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
 #header {
-  padding: 0;
+  margin: 0;
+  padding: 2%;
   height: 300px;
   width: 100%;
 }

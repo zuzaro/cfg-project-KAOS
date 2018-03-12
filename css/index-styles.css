@@ -43,10 +43,12 @@ h3 {
 }
 
 #header {
-  margin: 0;
+  margin-left: 0;
   padding: 2%;
   height: 300px;
   width: 100%;
+  background-image: url(../images/02.jpg);
+  background-size: cover;
 }
 
 #menu {
@@ -105,13 +107,20 @@ h3 {
   width: 100%;
   padding: 5px;
   background-size: cover;
-  background-color: rgb(13, 13, 13);
+}
+
+section {
+  width: 100%;
+/* margin: 0;
+  max-width: none; */
+  height: 100vh;
   background-image: url(../images/spot1.jpg);
   background-size: cover;
   opacity: 0.3;
   filter: alpha(opacity=30);
 }
-.footer:hover {
+
+section:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
 }
