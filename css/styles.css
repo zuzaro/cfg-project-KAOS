@@ -1,5 +1,5 @@
 body {
-  background-color: #191919;
+  background-color: rgb(13,13,13);
   font-family: 'Poiret One', cursive;
 }
 
@@ -9,7 +9,6 @@ section {
   max-width: none; */
   height: 100vh;
 }
-
 
 .header {
   height: 90px;
@@ -25,12 +24,21 @@ section {
 h1 {
   text-align: center;
   font-family: 'Poiret One', cursive;
+  padding: 5px 0px;
   font-size: 80px;
   font-weight: 500;
-  text-decoration: overline;
-  text-decoration-style: dotted;
+  text-decoration: underline;
+  text-decoration-style: double;
+  line-height: 1.5;
   color: #e6e6e6;
-  padding: 20% 0 20% 0;
+}
+
+h1 a {
+  color: #e6e6e6;
+}
+
+h1 a:hover{
+  color: #e6e6e6;
 }
 
 h2 {
@@ -49,6 +57,12 @@ p {
   line-height: 1.4;
 }
 
+#header {
+  padding: 0;
+  height: 300px;
+  width: 100%;
+}
+
 .footer {
   position: absolute;
   padding-top:250px;
@@ -57,9 +71,6 @@ p {
   margin-bottom:10px;
 }
 
-.footer a {
-  padding-right: 5%;
-}
 
 .contact {
   position: fixed;

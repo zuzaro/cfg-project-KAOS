@@ -2,73 +2,63 @@
 <html>
   <head>
     <title>KAOS Fashion Show</title>
-  <!--  <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index-styles.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <meta name="viewport" content="width=device-width", intial-scale="1.0">
   </head>
 
   <body>
-    <div id="header"><h1>KAOS Fashion Show</h1></div>
-<!--pictures menu-->
-    <section>
+    <div id="header">
+      <h1><a href="index.html">KAOS Fashion Show</a></h1>
+    </div>
+<!-- image menu-->
     <div class="row">
-      <div class="column">
-        <div class="container">
-          <a href="about.html"><img id="menu" src="images/rehearsal.jpg"
-            alt="Black and white picture from fashion show rehearsals"></a>
-          <div class="center"><a href="about.html">About KAOS</a></div>
-        </div>
-        <div class="container">
-          <a href="brands.html"><img id="menu" src="images/swimwear.jpg" alt="Photo of swimwear models"></a>
-          <div class="center"><a href="brands.html">Brands</a></div>
+      <div class="col-md-6">
+        <div class="about" id="menu">
+          <div class="center"><a href="about.html"><h2>About KAOS</h2></a></div>
         </div>
       </div>
-      <div class="column">
-        <div class="container">
-          <a href="shows.html"><img id="menu" src="images/ladyB2.jpg"
-            alt="Photo of two women from the back modelling retro dresses"></a>
-          <div class="center"><a href="shows.html">Previous Shows</a></div>
-        </div>
-        <div class="container">
-          <a href="performances.html"><img id="menu" src="images/acs.jpg" alt="Picture of Africa Caribbean Society dancing"></a>
-          <div class="center"><a href="performances.html">Performances</a></div>
+
+      <div class="col-md-6">
+        <div class="shows" id="menu">
+          <div class="center"><a href="shows.html"><h2>Previous Shows</h2></a></div>
         </div>
       </div>
     </div>
-  </section>
 
-  <section>
-    <div class="contact">
-      <h3>Contast Us!</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="brands" id="menu">
+          <div class="center"><a href="brands.html"><h2>Brands</h2></a></div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="performances" id="menu">
+          <div class="center"><a href="performances.html"><h2>Performances</h2></a></div>
+        </div>
+      </div>
+    </div>
+  <!-- Footer -->
+    <div class="footer">
+      <h2>Contact Us!</h2><br>
+      <div class="contact">
+        <div class="col-md-4">
       <form>
         First Name<br>
         <input type="text" name="firstname" placeholder="First Name"><br>
         Last Name<br>
         <input type="text" name="lastname" placeholder="Last Name"><br>
-        <label class="container-check">Company
-          <input type="checkbox">
-          <span class="checkmark"></span><br>
-        </label>
         Email<br>
-        <input type="email" placeholder="Email"><br>
+        <input type="text" placeholder="Email"><br>
         Message<br>
         <input type="text" name="message" placeholder="Message"><br>
         <input type="submit" value="Submit"><br>
       </form>
     </div>
-  </section>
-
-
-  <!--<section>
-    <div class="footer">
-      <a href="about.html">About</a>
-      <a href="shows.html">Previous Shows</a>
-      <a href="brands.html">Brands</a>
-      <a href="performances.html">Performances</a>
-      <a href="#">Contact</a>
+      </div>
     </div>
-  </section>-->
 
   </body>
 </html>
