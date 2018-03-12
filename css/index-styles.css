@@ -70,8 +70,6 @@ h3 {
 
 .shows {
   background-image: url(../images/ladyB2.jpg);
-  height: 200px;
-  background-size: cover;
 }
 
 .brands {
@@ -110,6 +108,12 @@ h3 {
   background-color: rgb(13, 13, 13);
   background-image: url(../images/spot1.jpg);
   background-size: cover;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+.footer:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
 }
 
 .contact {
@@ -122,6 +126,8 @@ h3 {
   color: #e6e6e6;
   margin-bottom: 10px;
   padding-top: 5px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 input {
