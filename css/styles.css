@@ -100,13 +100,6 @@ iframe {
   padding-bottom: 20px;
 }
 
-ul {
-  list-style-type: none;
-  text-align: justify;
-  font-size: 20px;
-  color: #e6e6e6;
-  padding: 0px 60px;
-}
 
 a:link {
   color: #ffffb3;
@@ -137,8 +130,16 @@ a:hover {
   display: inline;
 }
 
-#charities-list {
+.charities-list {
   text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: justify;
+  font-size: 20px;
+  color: #e6e6e6;
+  padding: 0px 60px;
 }
 
 #menu {

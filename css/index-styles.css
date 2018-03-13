@@ -51,6 +51,14 @@ h3 {
   background-size: cover;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
 #menu {
   height: 350px;
   width: 100%;
